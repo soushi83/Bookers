@@ -55,10 +55,14 @@ h1 {
 a {
   text-decoration: none;
   color: white;
-  background-color: blue;
-  padding: 10px 20px;
+  background-color: #007BFF;
+  padding: 10px;
   border-radius: 10px;
   font-size: 18px;
+}
+
+a:hover {
+  background-color: blue;
 }
 
 /*index.html.scss*/
@@ -78,6 +82,7 @@ table {
 th, td {
   border: 1px solid #ddd;
   padding: 8px;
+  text-align: left;
 }
 
 th {
@@ -87,4 +92,40 @@ th {
 .index-p {
   margin-top: 10px;
   font-size: 15px;
+}
+
+.long-text {
+  word-wrap: break-word;
+  max-width: 300px;
+}
+
+.action-bottoms {
+  display: flex;
+  gap: 10px;
+}
+
+/*show*/
+
+.show {
+  margin:50px 0 0 50px;
+}
+
+#notice {
+  color: green;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.show-p {
+  margin-bottom: 20px;
+}
+
+/*edit*/
+
+.edit {
+  margin: 50px 0 0 50px;
+}
+
+.update-field {
+  margin-bottom: 20px;
 }
