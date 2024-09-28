@@ -19,7 +19,7 @@
    box-sizing: border-box;
  }
 
- /*top.html.scss*/
+ /*top.html.erb*/
 
  .top-page {
   font-family: Arial, sans-self;
@@ -65,7 +65,7 @@ a:hover {
   background-color: blue;
 }
 
-/*index.html.scss*/
+/*index.html.erb*/
 
 .index {
   margin: 30px 0 0 30px
@@ -89,6 +89,34 @@ th {
   background-color: #ddd;
 }
 
+#error-display {
+  width: 500px;
+  background-color: #E0E0E0;
+  border: 1px solid red;
+  margin-bottom: 20px;
+}
+
+.error-count {
+  height: 30px;
+  background-color: #B22222;
+}
+
+#error-display h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 5px;
+  padding-top: 3px;
+}
+
+#error-display ul {
+  margin: 30px;
+}
+
+#error-display li {
+  list-style: square;
+}
+
 .index-p {
   margin-top: 10px;
   font-size: 15px;
@@ -104,7 +132,7 @@ th {
   gap: 10px;
 }
 
-/*show*/
+/*show.html.erb*/
 
 .show {
   margin:50px 0 0 50px;
@@ -113,14 +141,14 @@ th {
 #notice {
   color: green;
   font-weight: bold;
-  margin: 10px 0;
+  margin-bottom: 20px
 }
 
 .show-p {
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
-/*edit*/
+/*edit.html.erb*/
 
 .edit {
   margin: 50px 0 0 50px;
